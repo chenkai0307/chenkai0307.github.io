@@ -7,6 +7,7 @@ import navbarData from "./navbar/index.json";
 import sidebarData from "./sidebar/index.json";
 // @ts-ignore
 import friendshipLinksData from "./friendshipLinks/index.json";
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 
 const zhNavbar = navbarData;
 const zhSidebar = sidebarData;
@@ -80,5 +81,10 @@ export default defineUserConfig({
       "src": "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
     }],
   ],
+  plugins: [
+    mediumZoomPlugin({
+      selector: 'img',
+    }),
+  ]
   // debug: true,
 });
