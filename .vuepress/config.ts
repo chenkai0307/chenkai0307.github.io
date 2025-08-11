@@ -58,18 +58,18 @@ export default defineUserConfig({
     notFound: '哇哦，没有发现这个页面！',
     inputPasswordText: '请输入密码',
     unlockSucessText: '密码正确，玩得开心！',
-    unlockFailuerText: '密码错误，请重新输入！'
+    unlockFailuerText: '密码错误，请重新输入！',
     // commentConfig: {
-    //   type: 'valine',
+    //   type: 'giscus',
     //   // options 与 1.x 的 valineConfig 配置一致
     //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
-    //     // hideComments: true // 隐藏评论
+    //     repo: 'chenkai0307/chenkai0307.github.io',
+    //     repoId: 'R_kgDOPbyTLg',
+    //     category: 'General',
+    //     categoryId: 'DIC_kwDOPbyTLs4CuCB2',
+    //     mapping: 'pathname',
+    //
+    //     //hideComments: true // 隐藏评论
     //   },
     // },
   }),

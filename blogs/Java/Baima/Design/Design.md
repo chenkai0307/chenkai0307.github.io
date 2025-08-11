@@ -7,7 +7,7 @@ categories:
  - Java
 ---
 
-<img src="https://bizhi1.com/wp-content/uploads/2025/06/retro-sunset-drive-vaporwave-cityscape-desktop-wallpaper-4k.jpg" alt="复古日落大道蒸汽波城市景观桌面壁纸" style="zoom: 33%;" />
+<img src="https://bizhi1.com/wp-content/uploads/2025/06/retro-sunset-drive-vaporwave-cityscape-desktop-wallpaper-4k.jpg" alt="复古日落大道蒸汽波城市景观桌面壁纸" style="zoom: 33%;" />![img.png](img.png)
 
 ## 链接
 
