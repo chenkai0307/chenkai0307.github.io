@@ -1,0 +1,48 @@
+name: 部署文档
+
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - master
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装 cnpm
+        run: npm install -g cnpm --registry=https://registry.npmmirror.com
+
+      - name: 安装项目依赖
+        run: cnpm install @vuepress/bundler-vite@2.0.0-rc.18 @vuepress/bundler-webpack@2.0.0-rc.18 @vuepress/plugin-git@2.0.0-rc.54 @vuepress/plugin-medium-zoom@2.0.0-rc.55 vue@^3.5.0 vuepress@2.0.0-rc.18 vuepress-plugin-code-copy@^1.0.6 vuepress-theme-reco@2.0.0-rc.25 @vuepress/plugin-markdown-ext@2.0.0-rc.65 @vuepress/plugin-markdown-math@2.0.0-rc.65 @vuepress/plugin-markdown-stylize@2.0.0-rc.65 katex@^0.16.11
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          cnpm run build
+          > .vuepress/dist/.nojekyll
+
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 这是文档部署到的分支名称
+          branch: gh-pages
+          folder: .vuepress/dist

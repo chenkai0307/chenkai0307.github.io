@@ -1,0 +1,33 @@
+[
+  { "text": "首页", "link": "/" },
+  {
+    "text": "博文",
+    "children": [
+      { "text": "分页", "link": "/categories/Java/1.html" },
+      { "text": "标签", "link": "/tags/Java/1.html" },
+      { "text": "时间轴", "link": "/timeline.html" },
+      { "text": "文章列表", "link": "/posts.html" }
+    ]
+  },
+  {
+    "text": "Docs",
+    "children": [
+      { "text": "vuepress-reco", "link": "/docs/theme-reco/theme" },
+      { "text": "vuepress-theme-reco", "link": "/blogs/other/guide" }
+    ]
+  },
+  {
+    "text": "Java",
+    "children": [
+      { "text": "柏码JavaSE", "link": "/docs/Java/Baima/JavaSE/JavaSE/1-JavaSE" },
+      { "text": "柏码设计模式", "link": "/docs/Java/Baima/Design/1-Design" }
+    ]
+  },
+  {
+    "text": "中间件",
+    "children": [
+      { "text": "SQL使用", "link": "/docs/SQL/SQL_Use/1_SQL_Tutorial/1-SQL_Tutorial" }
+    ]
+  },
+  { "text": "导航", "link": "/friendship-link.html" }
+]
