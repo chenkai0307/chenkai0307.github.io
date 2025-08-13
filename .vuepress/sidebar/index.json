@@ -114,5 +114,21 @@
         }
       ]
     }
+  ],
+
+  "/docs/Operation/Linux/": [
+    {
+      "text": "运维基础",
+      "children": [
+        {
+          "text": "运维基础",
+          "children": [
+            "1_Base/1-Base",
+            "1_Base/2-Base",
+            "1_Base/3-Base"
+          ]
+        }
+      ]
+    }
   ]
 }

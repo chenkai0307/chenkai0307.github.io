@@ -24,6 +24,12 @@
     ]
   },
   {
+    "text": "运维",
+    "children": [
+      { "text": "Linux", "link": "/docs/Operation/Linux/1_Base/1-Base" }
+    ]
+  },
+  {
     "text": "中间件",
     "children": [
       { "text": "SQL使用", "link": "/docs/SQL/SQL_Use/1_SQL_Tutorial/1-SQL_Tutorial" }
