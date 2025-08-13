@@ -9,8 +9,6 @@ categories:
 
 <img src="https://images2.alphacoders.com/450/thumb-1920-450291.jpg" alt="Tim Robbins and Morgan Freeman in a scene from *The Shawshank Redemption*. A striking HD desktop wallpaper showcasing their iconic characters against a prison backdrop." style="zoom:33%;" />
 
-![image-20250813174431249](images/TheShawshankRedemption/image-20250813174431249.png)
-
 《肖申克的救赎》（The Shawshank Redemption）是一部改编自斯蒂芬・金中篇小说《丽塔・海华丝与肖申克的救赎》的经典剧情片，由弗兰克・德拉邦特执导，蒂姆・罗宾斯、摩根・弗里曼主演，1994 年上映。尽管上映初期票房表现平平，但凭借深刻的主题、精湛的叙事和演员的出色演绎，它逐渐成为影史公认的 “无冕之王”，常年位居各大影史榜单前列。
 
 ## **剧情梗概**
